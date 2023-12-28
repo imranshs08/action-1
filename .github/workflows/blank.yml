@@ -1,7 +1,7 @@
 name: My First Workfloow
 on: push
 jobs:
-  runs-on:
+  runs-on: ubuntu-latest
   steps:
   - name: Welcome Message
     run: echo "Welcome My First Github Actions"
